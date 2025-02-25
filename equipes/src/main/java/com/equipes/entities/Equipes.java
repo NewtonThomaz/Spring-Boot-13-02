@@ -16,13 +16,13 @@ public class Equipes {
 	private long id;
 	
 	@Column(name = "Nome")
-	private int nome;
+	private String nome;
 	
 	@Column(name = "Tamanho")
 	private int tamanho;
 	
 	@Column(name = "Modalidade")
-	private int modalidade;
+	private String modalidade;
 
 	public long getId() {
 		return id;
